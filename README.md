@@ -10,6 +10,14 @@ This plugin avoid the problem with using system keyboard shorcut `Move left a sp
 
 You need to check system hotkey and set them in the middle of the code.
 
+### Install
+
+You should add code below to `init.lua'.
+
+```sh
+dofile(hs.spoons.resourcePath("moveWindowToSpace.lua"))
+```
+
 ### Usage
 
 By default, you can move activate window to target space with `cmd + {target space number}`.
