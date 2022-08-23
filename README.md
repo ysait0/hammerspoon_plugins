@@ -12,7 +12,7 @@ You need to check system hotkey and set them in the middle of the code.
 
 ### Install
 
-You should add code below to `init.lua'.
+You should add code below to `init.lua`.
 
 ```sh
 dofile(hs.spoons.resourcePath("moveWindowToSpace.lua"))
